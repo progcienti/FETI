@@ -1,0 +1,85 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #000428, #004e92);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #001f3f, #0074d9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header .logo {
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00d4ff;
+}
+
+section {
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #00d4ff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.gallery, .event-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item, .event-item {
+    background: #001f3f;
+    border-radius: 12px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.item img, .event-item img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+footer {
+    padding: 20px;
+    background: #001f3f;
+    color: #fff;
+}
