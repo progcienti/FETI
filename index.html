@@ -8,20 +8,27 @@
 </head>
 <body>
     <!-- Cabeçalho -->
-    <header class="header">
-        <h1 class="logo">FETI</h1>
+    <header>
+        <div class="logo">
+            <a href="#">FETI</a>
+        </div>
         <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#amostras">Amostras</a></li>
-                <li><a href="#noticias">Notícias</a></li>
-                <li><a href="#eventos">Eventos</a></li>
-                <li><a href="#cursos">Mini Cursos</a></li>
-                <li><a href="#contato">Contato</a></li>
+            <!-- Ícone do Menu Hamburguer -->
+            <div class="hamburger" id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+    
+            <ul id="menuLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
+    
 
     <!-- Home -->
     <section id="home" class="home">
@@ -186,5 +193,6 @@
     <footer class="footer">
         <p>&copy; 2025 FETI - Todos os direitos reservados.</p>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 </html>
